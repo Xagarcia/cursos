@@ -6,11 +6,11 @@
 /*   By: xagarcia <xagarcia@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 12:57:35 by xagarcia          #+#    #+#             */
-/*   Updated: 2022/09/23 13:04:58 by xagarcia         ###   ########.fr       */
+/*   Updated: 2022/09/28 15:01:36 by xagarcia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-const	char* ft_strrchr( const char* str, int c)
+const	char	*ft_strrchr(const char *str, int c)
 {
 	int	strlen;
 
@@ -19,7 +19,7 @@ const	char* ft_strrchr( const char* str, int c)
 	{
 		if (str[strlen] == c)
 		{
-			return ((char*)&str[strlen]);
+			return ((char *) &str[strlen]);
 		}
 		strlen--;
 	}

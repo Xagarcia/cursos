@@ -6,11 +6,11 @@
 /*   By: xagarcia <xagarcia@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 11:39:59 by xagarcia          #+#    #+#             */
-/*   Updated: 2022/09/15 12:36:19 by xagarcia         ###   ########.fr       */
+/*   Updated: 2022/09/28 14:22:54 by xagarcia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 65 && <= 90) || (c >= 97 && c <= 122))
 		return (1);

@@ -6,13 +6,13 @@
 /*   By: xagarcia <xagarcia@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 14:05:37 by xagarcia          #+#    #+#             */
-/*   Updated: 2022/09/15 14:07:33 by xagarcia         ###   ########.fr       */
+/*   Updated: 2022/09/28 14:59:23 by xagarcia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii (int c)
+int	ft_isascii(int c)
 {
-	if ( c >= 0 && c <= 127)
+	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
 }

@@ -6,11 +6,11 @@
 /*   By: xagarcia <xagarcia@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 12:37:59 by xagarcia          #+#    #+#             */
-/*   Updated: 2022/09/15 12:42:31 by xagarcia         ###   ########.fr       */
+/*   Updated: 2022/09/28 14:59:46 by xagarcia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit (int c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
